@@ -10,7 +10,7 @@ const getPersistedListFromLocalStorage = () => {
   return [];
 };
 
-// initialize history122
+// initialize history
 const initialize = () => {
   getPersistedListFromLocalStorage().forEach((item) => renderItem(item));
 };
